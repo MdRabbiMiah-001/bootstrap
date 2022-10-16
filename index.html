@@ -5,8 +5,130 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>
+        h1{
+            margin-top:50px;
+        }
+    </style>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg bg-primary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">BANGLADESH</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
     <h1>I love my country.</h1>
+    <h1>Buttons</h1>
+    <button class="btn btn-primary">Primary</button>
+    <button class="btn btn-secondary">Secondary</button>
+    <button class="btn btn-success">Success</button>
+    <button class="btn btn-danger">Danger</button>
+    <button class="btn btn-warning">Warning</button>
+    <button class="btn btn-info">Info</button>
+    <button class="btn btn-light">Light</button>
+    <button class="btn btn-dark">Dark</button>
+
+    <h1>Colors</h1>
+    <p class="text-primary">This is my first paragraph.</p>
+    <p class="text-success">I love my country very much.</p>
+    <p class="text-info">I am student now.</p>
+    <p class="text-dark">I will be a great web-developer.</p>
+    <h1>Bachground</h1>
+    <div class="bg-warning text-dark">
+        <h1>News</h1>
+        <p>Today I am very happy.</p>
+    </div>
+    <div class="bg-success text-white">
+        <h1>Hobby</h1>
+        <p>Watching movie, reading book, play in the field.</p>
+    </div>
+
+    <h1>Images</h1>
+    <img class="img-fluid w-25 rounded float-end rounded-circle" src="pic/bd.jpg" alt="">
+    <img class="img-fluid rounded-circle" src="pic/bd.1.jpg">
+    <img src="pic/bd.2.jpg" alt="">
+
+    <h1>Card</h1>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="pic/bd.5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Beautiful Bangladesh</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <a href="#" class="btn btn-primary">Visit Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="pic/bd.3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Beautiful Bangladesh</h5>
+              <p class="card-text">This is a short card.</p>
+              <a href="#" class="btn btn-primary">Visit Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="pic/bd.4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Beautiful Bangladesh</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Visit Now</a>
+            </div>
+          </div>
+        </div> 
+       <div class="container">
+        <h1>Grid</h1>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <p>Bangladesh forms the sovereign part of the historic and ethnolinguistic region of Bengal, which was divided during the Partition of India in 1947.[15] The country has a Bengali Muslim majority. Ancient Bengal was an important cultural centre in the Indian subcontinent as the home of the states of Vanga, Pundra, Gangaridai, Gauda, Samatata, and Harikela. The </p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <p>Bangladesh forms the sovereign part of the historic and ethnolinguistic region of Bengal, which was divided during the Partition of India in 1947.[15] The country has a Bengali Muslim majority. Ancient Bengal was an important cultural centre in the Indian subcontinent as the home of the states of Vanga, Pundra, Gangaridai, Gauda, Samatata, and Harikela. The </p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <p>Bangladesh forms the sovereign part of the historic and ethnolinguistic region of Bengal, which was divided during the Partition of India in 1947.[15] The country has a Bengali Muslim majority. Ancient Bengal was an important cultural centre in the Indian subcontinent as the home of the states of Vanga, Pundra, Gangaridai, Gauda, Samatata, and Harikela. The </p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <p>Bangladesh forms the sovereign part of the historic and ethnolinguistic region of Bengal, which was divided during the Partition of India in 1947.[15] The country has a Bengali Muslim majority. Ancient Bengal was an important cultural centre in the Indian subcontinent as the home of the states of Vanga, Pundra, Gangaridai, Gauda, Samatata, and Harikela. The </p>
+            </div>
+        </div>
+
+       </div>
 </body>
 </html>
